@@ -1,0 +1,68 @@
+h2{
+  /*  color: violet;  alternativa a questa strittura e sotto*/
+ /* color:#ff0000; oppure*/
+ color: rgb(10, 90, 50);
+
+}
+
+h3{
+    color: royalblue;
+    background: sandybrown;
+}
+
+body{
+    background: slategray;
+    /* per mettere un'immagine come sfondo fare background: url(link immagine google)*/
+}
+
+li{
+    border-color: black;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+/* SELETTORI */
+h4{
+    color: chocolate;
+}
+
+#colorato {
+    color: darkblue;
+}
+
+.colori{
+    color: darkgoldenrod;
+}
+
+/*
+con *{} portiamo modifiche a tutti
+
+oppure tutte i link dentro una lista li a {} porta solo le modifiche ad a 
+dentro li
+oppure tipi input[type='text']{♀5
+
+*/
+
+/* CSS Fonts cestriscono i caratteri*/
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif; /*tipologia scrittura*/
+    font-size: 100px; /*grandezza carattere*/
+
+    text-align: center;  /*posizione frase */
+
+}
+
+/*BOX MODEL i rettangoli di ogni cosa, padding margin,border*/
+
+h4{
+    font-size: 50px;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+
+
+

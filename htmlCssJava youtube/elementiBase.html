@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head si mettono i metadati-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- nel body si mette tutto -->
+<body>
+    <h1>ciao mondo</h1> <!-- gli h servono per titoli -->
+    <p>paragrfafo ciao come stai?</p> <!-- paragrafo per scrittura-->
+    <!-- esistono diversi modi per scrivere un paragrafo per esempio in grassetto in corsivo e si usano i tag strong, i,em,....-->
+
+    <!--ora parliamo di liste -->
+    <ul>
+        <li>cane</li>
+        <li>gatto</li>
+    </ul>
+    <!--lista numerata-->
+    <ol>
+        <li>cane
+            <!--lista dentro una lista-->
+            <ol>
+                <li>trilly</li>
+                <li>sara</li>
+            </ol>
+        </li>
+        <li>gatto</li>
+    </ol>
+
+    <!--Attributi, specificano funzioni o tipologie dell'elemento-->
+    <!-- es <Tag attributo=valore>contenuto</tag>-->
+    <!--Al posto di www.google possiamo mettere il riferimento ad unaltra pagina html creata da noi-->
+    <a href="http://www.google.com">vai su google</a>
+    <p></p>
+    <img src="download (1).jpg">
+
+    <!--TABLE-->
+    <table border="1">
+        <tr>
+            <th>titolo colonna1</th>
+            <th>titolo colonna2</th>
+        </tr>
+        <tr>
+            <td>cane</td><!--Cella-->
+            <td>gatto</td>
+            <td>maiale</td>
+        </tr>  <!--tr sta per riga-->
+        <tr>
+            <td>facebook</td>
+            <td>instagram</td>
+        </tr>
+    </table>
+
+    <!--Forms: ricevere input dagli utenti-->
+    <h2>Forms</h2>
+    <input type="color">
+    <input type="text">
+    <input type="password" placeholder="password">
+    <button>clicca qui</button>
+
+    <form action="">
+        <label for="">
+            Username:
+            <input type="text" placeholder="scrivi qualcosa" required> <!--Required ti obblica a scrivere qualcosa senno non possiamo aggiornare la pagina
+            in questo esempio-->
+        </label>
+        <p></p>
+        <label for="">
+            Password:
+            <input type="password" placeholder="password">
+        </label>  
+        <label for="">
+            <input type="email" placeholder="scrivi email">
+        </label>
+        <button>aggiorna</button>
+    </form>
+
+    <h2>Bottone radio e element select</h2>
+    <form action="">
+        <!--Per poter selezionare un solo bottone aggiungiamo il parametro name per lavorae su lui-->
+        <label for="maschio">Maschio</label>
+        <input name="genere" id="mashio" type="radio">
+        <label for="femmina">Femmina</label>
+        <input name="genere" id="femmina" type="radio">
+    </form>
+
+    <form action="">
+        <select>
+            <option value="">facebook</option>
+            <option value="">youtube</option>
+        </select>
+    </form>
+
+    <form action="">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
+
+
+
+
+
+</body>
+</html>
